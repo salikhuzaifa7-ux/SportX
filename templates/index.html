@@ -1,0 +1,104 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportX</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css')}}" />
+  </head>
+
+
+  <body>
+
+  <header>
+    <div class="logo">SPORT<span>X</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+    </nav>
+  </header>
+  <script src="enhancements.js"></script>
+
+
+  <section class="hero">
+    <h1>IMPOSSIBLE IS NOTHING</h1>
+    <p>Premium sportswear built for performance</p>
+    <button onclick="goToProducts()">Shop Now</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <h3>Performance</h3>
+      <p>Engineered for athletes</p>
+    </div>
+    <div class="feature">
+      <h3>Style</h3>
+      <p>Modern & minimal design</p>
+    </div>
+    <div class="feature">
+      <h3>Comfort</h3>
+      <p>All-day wear</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 SportX. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+
+
+  
+  
+  <link rel="stylesheet" href="style.css" />
+
+
+
+  <header>
+    <div class="logo">SPORT<span>X</span></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+    </nav>
+  </header>
+
+  <section class="products">
+    <h2>Our Collection</h2>
+
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://www.superkicks.in/cdn/shop/files/IG1024-3.jpg?v=1698069558" alt="Shoe">
+        <h4> Shoes</h4>
+        <p>$120</p>
+      </div>
+
+      <div class="card">
+        <img src="https://www.futbolemotion.com/imagesarticulos/264882/grandes/chaqueta-adidas-real-madrid-training-2025-2026-almost-lime-0.webp" alt="Jacket">
+        <h4>Training Jackets</h4>
+        <p>$90</p>
+      </div>
+
+      <div class="card">
+        <img src="https://rashidcassimsports.co.za/cdn/shop/files/JW4054_3_APPAREL_OnModel_StandardView_grey-Photoroom.webp?v=1755696350&width=1080" alt="T-shirt">
+        <h4>jerseys</h4>
+        <p>$45</p>
+      </div>
+
+	<div class="card">
+        <img src="https://assets.adidas.com/images/w_940,f_auto,q_auto/3a424c334568487c969baf0e00fc503f_9366/HS9758_01_00_standard.jpg" alt="Accessories">
+        <h4>Accessories</h4>
+        <p>$2</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 SportX. All rights reserved.</p>
+  </footer>
+
+
+
+    <script src="{{ url_for('static',filename='js/script.js')}}"></script>
+  </body>
+  </html>

@@ -1,0 +1,14 @@
+{
+    "builds":[
+        {
+            "src":"api/index.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "roots":[
+        {
+            "src":"/(.*)",
+            "dest":"api/index.py"
+        }
+    ]
+}
